@@ -1,2 +1,2 @@
-FROM php:5.6-fpm
+FROM php:7-apache
 RUN docker-php-ext-install mbstring bcmath
